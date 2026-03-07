@@ -5,7 +5,7 @@ interface HighlightItem {
   id: string;
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
 }
 
 const highlights: HighlightItem[] = [

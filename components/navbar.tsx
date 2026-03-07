@@ -12,7 +12,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-
+import Image from "next/image";
+import logo from "@/assets/logo-masjid.png";
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -40,9 +41,7 @@ export function Navbar() {
           href="#top"
           className="flex items-center gap-3 text-lg font-bold tracking-tight text-white"
         >
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-emerald-500/20 ring-1 ring-emerald-400 text-xs font-bold text-emerald-400">
-            MB
-          </span>
+            <Image src={logo} alt="Masjid Besar Baiturrahman" width={100} height={100} />
           <span className="hidden sm:inline drop-shadow-md">
             Masjid Besar Baiturrahman
           </span>

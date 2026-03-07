@@ -41,11 +41,7 @@ export function Navbar() {
           href="#top"
           className="flex items-center gap-3 text-lg font-bold tracking-tight text-white"
         >
-            <Image src={logo} alt="Masjid Besar Baiturrahman" width={100} height={100} />
-          <span className="hidden sm:inline drop-shadow-md">
-            Masjid Besar Baiturrahman
-          </span>
-          <span className="inline sm:hidden">Baiturrahman</span>
+            <Image src={logo} alt="Masjid Besar Baiturrahman" width={150} height={180} />
         </Link>
 
         <nav className="hidden items-center gap-8 text-[18px] font-medium text-white/90 md:flex">

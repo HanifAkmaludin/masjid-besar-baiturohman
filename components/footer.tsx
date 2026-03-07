@@ -31,10 +31,7 @@ export function Footer() {
             <nav className="space-y-2 text-lg">
               <FooterLink href="#jadwal-shalat">Jadwal Shalat</FooterLink>
               <FooterLink href="#fasilitas">Fasilitas &amp; Layanan</FooterLink>
-              <FooterLink href="#jadwal-kajian">Jadwal Kajian</FooterLink>
-              <FooterLink href="#layanan-komunitas">
-                Layanan Komunitas
-              </FooterLink>
+              <FooterLink href="#dokumentasi-kegiatan">Dokumentasi Kegiatan</FooterLink>
             </nav>
           </div>
 

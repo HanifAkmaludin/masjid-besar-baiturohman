@@ -20,7 +20,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-lg leading-relaxed text-emerald-100">
-              Jl. Tongkeng, Kota Bandung — masjid besar yang menjadi pusat
+              Jl. Patrakomala no.31A, Kel. Merdeka, Kec.Sumur Bandung, Kota Bandung — masjid besar yang menjadi pusat
               ibadah dan aktivitas umat.
             </p>
           </div>

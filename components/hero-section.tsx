@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import masjidImage from "@/assets/masjid-baiturrahman.jpg"; // Sesuaikan path jika perlu
+import masjidImage from "@/assets/hero.jpeg"; // Sesuaikan path jika perlu
 
 export function HeroSection() {
   return (
     <section
       id="top"
-      className="relative isolate flex min-h-[80vh] items-center overflow-hidden bg-black"
+      className="relative isolate flex min-h-[85vh] items-center overflow-hidden bg-black"
     >
       <div className="absolute inset-0">
         <Image
@@ -14,7 +14,7 @@ export function HeroSection() {
           alt="Masjid Besar Baiturrahman Bandung"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-[0%_40%]"
         />
         <div className="absolute inset-0 bg-black/60" />
       </div>
@@ -38,14 +38,18 @@ export function HeroSection() {
 
           <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-start">
             <Button size="lg" className="w-full sm:w-auto text-base">
-              Lihat Jadwal Shalat Hari Ini
+              <a href="#jadwal-shalat">
+                Lihat Jadwal Shalat Hari Ini
+              </a>
             </Button>
             <Button
               variant="outline"
               size="lg"
               className="w-full border-emerald-200/80 bg-white/5 text-emerald-50 sm:w-auto"
             >
+             <a href="#fasilitas">
               Jelajahi Fasilitas Masjid
+             </a>
             </Button>
           </div>
         </div>

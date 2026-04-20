@@ -1,11 +1,10 @@
 import { Navbar } from "@/components/navbar";
 import { HeroSection } from "@/components/hero-section";
 import { PrayerTimesCard } from "@/components/prayer-times-card";
-import { FacilitiesSection } from "@/components/facilities-section";
-import { CommunityHighlightsSection } from "@/components/community-highlights";
-import { CommunityContactSection } from "@/components/community-contact";
+import { ManagementStructureSection } from "@/components/management-structure";
+import { FacilitiesGallerySection } from "@/components/facilities-gallery";
+import { ActivityScheduleSection } from "@/components/activity-schedule";
 import { Footer } from "@/components/footer";
-import { InstagramFeed } from "@/components/instagram-feed";
 
 export default function Home() {
   return (
@@ -21,20 +20,16 @@ export default function Home() {
             </div>
           </div>
 
-          <section className="px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
-            <FacilitiesSection />
+          <section className="bg-slate-50/50 py-24 lg:py-32">
+            <ManagementStructureSection />
           </section>
 
-          <section className="px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
-            <CommunityHighlightsSection />
+          <section className="py-24 lg:py-32">
+            <FacilitiesGallerySection />
           </section>
 
-          <section className="px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
-            <CommunityContactSection />
-          </section>  
-
-          <section className="px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
-            <InstagramFeed />
+          <section className="bg-slate-50/50 py-24 lg:py-32">
+            <ActivityScheduleSection />
           </section>
 
           <Footer />

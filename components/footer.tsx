@@ -30,8 +30,9 @@ export function Footer() {
             <h3 className="text-lg font-semibold">Layanan</h3>
             <nav className="space-y-2 text-lg">
               <FooterLink href="#jadwal-shalat">Jadwal Shalat</FooterLink>
+              <FooterLink href="#kepengurusan">Kepengurusan</FooterLink>
               <FooterLink href="#fasilitas">Fasilitas &amp; Layanan</FooterLink>
-              <FooterLink href="#dokumentasi-kegiatan">Dokumentasi Kegiatan</FooterLink>
+              <FooterLink href="#jadwal-kegiatan">Jadwal Kegiatan</FooterLink>
             </nav>
           </div>
 
@@ -41,12 +42,12 @@ export function Footer() {
             <div className="space-y-2 text-lg">
               <div className="flex items-center gap-3">
                 <PhoneCall className="h-6 w-6 text-emerald-200" />
-                <span>WhatsApp DKM: 0812-3456-7890</span>
+                <span>WhatsApp DKM: +62 858-7105-3704</span>
               </div>
-              <p className="text-lg text-emerald-100">
+              {/* <p className="text-lg text-emerald-100">
                 Layanan Ambulans &amp; Kursi Roda diatur melalui koordinasi
                 langsung dengan petugas DKM.
-              </p>
+              </p> */}
             </div>
           </div>
 
@@ -68,19 +69,20 @@ export function Footer() {
             </Link>
             <div className="mt-4 flex items-center gap-4">
               <Link
-                href="#"
+                href="https://www.instagram.com/reel/DVglbKmicW_/?igsh=MXY2YnZ0dXpldnd5cw=="
+                target="_blank"
                 aria-label="Instagram Masjid Besar Baiturrahman"
                 className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-700 hover:bg-emerald-600"
               >
                 <Instagram className="h-7 w-7" strokeWidth={1.5} />
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 aria-label="YouTube Masjid Besar Baiturrahman"
                 className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-700 hover:bg-emerald-600"
               >
                 <Youtube className="h-7 w-7" strokeWidth={1.5} />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
